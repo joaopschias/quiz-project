@@ -1,0 +1,56 @@
+# Ignore build directories
+/build/
+/target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Ignore Maven / Gradle specific files
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+build.gradle
+.gradle/
+/out/
+/!gradle-wrapper.jar
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled class files
+*.class
+
+# Ignore JAR and WAR files
+*.jar
+*.war
+
+# Ignore temporary files created by editors
+*.swp
+*~
+
+# Ignore configuration files
+*.xml
+*.yaml
+*.yml
+
+# Ignore IDE-specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore input method logs (macOS IMKClient)
+*.imk_log
